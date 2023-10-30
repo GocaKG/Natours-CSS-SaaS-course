@@ -532,11 +532,11 @@ body {
   display: block;
   transition: all 0.3s;
 }
-.form_input::-moz-placeholder-shown + .form_label {
+.form_input:-moz-placeholder-shown + .form_label {
   opacity: 0;
   visibility: hidden;
 }
-.form_input::placeholder-shown + .form_label {
+.form_input:placeholder-shown + .form_label {
   opacity: 0;
   visibility: hidden;
 }

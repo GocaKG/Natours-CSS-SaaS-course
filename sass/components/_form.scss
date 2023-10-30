@@ -41,7 +41,7 @@
         transition: all .3s;
     }
 
-    &_input::placeholder-shown + &_label {
+    &_input:placeholder-shown + &_label {
         opacity: 0;
         visibility: hidden;
     }
