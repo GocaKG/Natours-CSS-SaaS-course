@@ -179,9 +179,19 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important;
 }
+@media (max-width: 56.25em) {
+  .u-margin-bottom-big {
+    margin-bottom: 5rem !important;
+  }
+}
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important;
+}
+@media (max-width: 56.25em) {
+  .u-margin-bottom-medium {
+    margin-bottom: 3rem !important;
+  }
 }
 
 .u-margin-bottom-small {
@@ -197,6 +207,11 @@ body {
   padding: 25rem 0;
   margin-top: -25vh;
 }
+@media (max-width: 56.25em) {
+  .section-about {
+    padding: 20rem 0;
+  }
+}
 
 .section_features {
   padding: 20rem 0;
@@ -208,21 +223,41 @@ body {
 .section_features > * {
   transform: skewY(7deg);
 }
+@media (max-width: 56.25em) {
+  .section_features {
+    padding: 10rem 0;
+  }
+}
 
 .section-tours {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem;
 }
+@media (max-width: 56.25em) {
+  .section-tours {
+    padding: 20rem 0 10rem 0;
+  }
+}
 
 .section-stories {
-  padding: 15rem 0;
   position: relative;
+  padding: 15rem 0;
+}
+@media (max-width: 56.25em) {
+  .section-stories {
+    padding: 10rem 0;
+  }
 }
 
 .section-book {
   padding: 15rem;
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+@media (max-width: 56.25em) {
+  .section-book {
+    padding: 10rem 0;
+  }
 }
 
 .book {
@@ -323,17 +358,45 @@ body {
   transition: all 0.2s;
   outline-offset: 2rem;
 }
+@media (max-width: 56.25em) {
+  .composition_photo {
+    float: left;
+    position: relative;
+    width: 33.333%;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  }
+}
 .composition_photo--p1 {
   left: 0;
   top: -2rem;
 }
+@media (max-width: 56.25em) {
+  .composition_photo--p1 {
+    top: 0;
+    transform: scale(1.2);
+  }
+}
 .composition_photo--p2 {
   right: 0;
   top: 2rem;
+  z-index: 100;
+}
+@media (max-width: 56.25em) {
+  .composition_photo--p2 {
+    top: -1;
+    transform: scale(1.3);
+  }
 }
 .composition_photo--p3 {
-  left: 10%;
+  left: 20%;
   top: 10rem;
+}
+@media (max-width: 56.25em) {
+  .composition_photo--p3 {
+    top: 1rem;
+    left: 0;
+    transform: scale(1.1);
+  }
 }
 .composition_photo:hover {
   outline: 1.5rem solid #55c57a;
@@ -354,6 +417,11 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 }
+@media (max-width: 56.25em) {
+  .feature-box {
+    padding: 2rem;
+  }
+}
 .feature-box__icon {
   font-size: 6rem;
   margin-bottom: 0.5rem;
@@ -362,6 +430,11 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
+}
+@media (max-width: 56.25em) {
+  .feature-box__icon {
+    margin-bottom: 0;
+  }
 }
 .feature-box:hover {
   transform: translateY(-1.5rem) scale(1.03);
@@ -821,6 +894,11 @@ body {
 .footer_logo-box {
   text-align: center;
   margin-bottom: 8rem;
+}
+@media (max-width: 56.25em) {
+  .footer_logo-box {
+    padding: 6rem;
+  }
 }
 .footer_logo {
   width: 15rem;
